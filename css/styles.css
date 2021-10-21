@@ -19,3 +19,17 @@ body {
 .navbar {
     background-color: white;
 }
+
+.card {
+    width:200px;
+    height:450px;
+}
+
+#creatorCards {
+    width: auto;
+    height:200px;
+}
+
+.textarea {
+    width:100%
+}
