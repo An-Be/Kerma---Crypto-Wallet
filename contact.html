@@ -23,9 +23,11 @@
 <body>
     <!--Header-->
     <header>
-   <nav class="navbar navbar-expand-md navbar-light sticky-top">
+   <nav class="navbar navbar-expand-md navbar-light fixed-top">
        <div class="container ">
-           <a class="navbar-brand" href="index.html">Kerma</a>
+           <a class="navbar-brand" href="index.html">
+            <img src="#" alt="logo img">
+           </a>
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#kermaNavbar">
                <span class="navbar-toggler-icon"></span>
            </button>
@@ -45,7 +47,6 @@
            </span>
        </div>
        </div>
-   </div>
    </nav>
 </header>
 
@@ -100,9 +101,10 @@
     </div>
     </div>
 </form>
+<div id="coinmarketcap-widget-marquee" coins="1,1027,825,1839,2010,5426,52" currency="USD" theme="light" transparent="true" show-symbol-logo="true"></div>
+
 </div>
-</div>
-</div>
+
 
 <footer class="site footer mt-5">
     <div class="container">
@@ -124,6 +126,7 @@
        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
        <script src="js/scripts.js"></script>
+       <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script>
 
 </body>
 

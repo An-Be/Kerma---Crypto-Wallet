@@ -5,11 +5,17 @@ a{
     font-weight: "bold";
 }
 
+
+
 body {
     font-family: "Barlow", sans-serif;
+    padding-top:100px;
 }
 
 .fa-linkedin {
     color: #0e76a8;
 }
 
+.navbar {
+    background-color: white;
+}

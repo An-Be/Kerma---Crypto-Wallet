@@ -23,9 +23,12 @@
  <body>
      <!--Header-->
      <header>
-    <nav class="navbar navbar-expand-md navbar-light sticky-top mb-5">
-        <div class="container ">
-            <a class="navbar-brand" href="#">Kerma</a>
+        
+        <nav class="navbar navbar-expand-md navbar-light fixed-top mb-5">
+            <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="#" alt="logo img">
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#kermaNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -43,9 +46,11 @@
             <!--Download Button-->
             <button class="btn btn-primary ml-auto" type="button" id="downloadButton"> Download Kerma Now</button>
         </div>
-        </div>
     </div>
     </nav>
+
+</header>
+
     <!--Download Button Modal-->
    <div id="downloadModal" class="modal" tabindex="-1" role="dialog">
        <div class="modal-dialog" role="document">
@@ -64,13 +69,13 @@
            </div>
        </div>
    </div> 
-</header>
+
 <!--intro to Kerma-->
 <div class="container">
     <div class="row justify-content-center">
         <img src="#" alt="header img">
     </div>
-    <div class="row justify-content-center">
+    <div class="row justify-content-center ">
 <h2 class="text-center">Welcome to Kerma</h2>
 </div>
 <div class="row justify-content-center">
@@ -80,6 +85,8 @@
 <div class="row justify-content-center mt-4 mb-5">
 <button id="downloadButtonTwo" class="btn btn-primary" type="button"> Download Kerma Now</button>
 </div>
+
+<div id="coinmarketcap-widget-coin-price-block" coins="1,1027,825,1839,2010,5426,52" currency="USD" theme="light" transparent="true" show-symbol-logo="true"></div>
 
     <!--Download Button Modal-->
     <div id="downloadModalTwo" class="modal" tabindex="-1" role="dialog">
@@ -99,40 +106,45 @@
             </div>
         </div>
     </div>
+    <hr/>
+</div>
 
-<hr/>
+
+
 
 
 <!--cards-->
-<div class="row justify-content-md-center" >
+<div class="container">
+<div class="row" >
     <div class= "col col-lg-8 mx-auto">
-<div class="card-group mt-3 mb-5">
-    <div class="card bg-light" style ="width: 18rem;">
-        <img src="#" class="card-img-top" alt="image">
-        <div class="card-body">
-            <h3 class="cart-title">You are in charge</h2>
-            <p class="card-text">You are in charge of all your assets and account. No need to worry about third party companies intruding in your finances. Control your account and all your data right from your fingertips using the Kerma app.</p>
-        </div>
-    </div>
+        <div class="card-group mt-3 mb-5 ">
+            <div class="card bg-light" style ="width: 18rem;">
+                <img src="#" class="card-img-top" alt="image">
+                <div class="card-body">
+                    <h3 class="cart-title">You are in charge</h2>
+                    <p class="card-text">You are in charge of all your assets and account. No need to worry about third party companies intruding in your finances. Control your account and all your data right from your fingertips using the Kerma app.</p>
+                </div>
+            </div>
 
-    <div class="card bg-light" style ="width: 18rem;">
-        <img src="#" class="card-img-top" alt="image">
-        <div class="card-body">
-            <h3 class="cart-title">Security</h2>
-            <p class="card-text">Either choose your own generated password or let us choose for you. With that password only you have control of your account and assets.</p>
+            <div class="card bg-light" style ="width: 18rem;">
+                <img src="#" class="card-img-top" alt="image">
+                <div class="card-body">
+                    <h3 class="cart-title">Security</h2>
+                    <p class="card-text">Either choose your own generated password or let us choose for you. With that password only you have control of your account and assets.</p>
+                </div>
+            </div>
+            <div class="card bg-light" style ="width: 18rem;">
+                <img src="#" class="card-img-top" alt="image">
+                <div class="card-body">
+                    <h3 class="cart-title">Buy and Sell</h2>
+                    <p class="card-text">Through the Kerma app you can manage all your assets. Buy and sell freely and in total control.</p>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="card bg-light" style ="width: 18rem;">
-        <img src="#" class="card-img-top" alt="image">
-        <div class="card-body">
-            <h3 class="cart-title">Buy and Sell</h2>
-            <p class="card-text">Through the Kerma app you can manage all your assets. Buy and sell freely and in total control.</p>
-        </div>
-    </div>
 </div>
 </div>
 </div>
-</div>
+
 
     <footer class="site footer mt-5">
     <div class="container">
@@ -144,7 +156,8 @@
             </div>
 
         </div>
-        <div id="coinmarketcap-widget-marquee" coins="1,1027,825,1839,2010,5426" currency="USD" theme="light" transparent="true" show-symbol-logo="true"></div>
+
+
     </div>
  
 
@@ -155,6 +168,7 @@
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script>
         <script src="js/scripts.js"></script>
+        <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script>
 
  </body>
 
