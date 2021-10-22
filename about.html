@@ -2,15 +2,16 @@
 <html lang="en">
 
 <head>
-     <!-- Required meta tags -->
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <!-- google fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300;1,400;1,600&display=swap" />
-     <!-- CSS -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300;1,400;1,600&display=swap" />
+    <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
     <!-- font awesome -->
     <script defer src="node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
@@ -23,114 +24,124 @@
 <body>
     <!--Header-->
     <header>
-   <nav class="navbar navbar-expand-md navbar-light fixed-top shadow">
-       <div class="container ">
-           <a class="navbar-brand" href="index.html">
-            <img src="#" alt="logo img">
-           </a>
-           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#kermaNavbar">
-               <span class="navbar-toggler-icon"></span>
-           </button>
-       <!--Nav Links--> 
-       
-       <div class="collapse navbar-collapse " id="kermaNavbar">
-           <ul class="navbar-nav">
-               <li class="nav-item"><a class="nav-link" href="index.html">Home</a>
-               </li>
-               <li class="nav-item active"><a class="nav-link" href="#">About</a>
-               </li>
-               <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a>
-               </li>
-           </ul>
-           <!--Download Button-->
-           <button class="btn btn-primary ml-auto" type="button" id="downloadButton"> Download Kerma Now</button>
-           </span>
-       </div>
-       </div>
-   
-   </nav>
-   <!--Download Button Modal-->
-   <div id="downloadModal" class="modal" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Download Kerma</h5>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-                <p><i class="fas fa-mobile-alt mr-2"></i>Download for IOS or Android</p>
-                <button type="button" class="btn btn-primary"><i class="fab fa-apple mr-2"></i>IOS</button>
-                <button type="button" class="btn btn-primary"><i class= "fab fa-android mr-2"></i>Android</button>
-                <button type="button" data-dismiss="modal" class="btn btn-secondary">Close</button>
-            </div>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top shadow">
+            <div class="container ">
+                <a class="navbar-brand" href="index.html">
+                    <img src="#" alt="logo img">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#kermaNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--Nav Links-->
 
-        </div>
-    </div>
-</div> 
-</header>
-<!--About Kerma-->
-<div class="container mt-5">
-    <div class="row">
-        <div class="col">
-            <h1>About</h1>
-            <p>Kerma was made by a small group of people. Actually only two people. Andrea Berrocal who came up with the design and also developed the website and Valery Berrocal, who made the illustrations you see on the Kerma website as well as the Kerma Logo. The ultimate goal behind Kerma is to make a decentralized wallet so users can be in charge of their own tokens and not have to worry about others interfering.</p>
-        </div>
-        <div class="col">
-            <img src="" alt="About us image">
-        </div>
-    </div>
-    <hr/>
-</div>
-
-
-<!--creators of Kerma-->
-<div class="container mt-5">
-    <div class ="row justify-content-center">
-            <h2>Creators of Kerma</h2>
-        </div>
-    
-
-<div class="row justify-content-md-center" >
-    <div class= "col col-lg-6 mb-3">
-            <div class="card bg-light mx-auto shadow"  id="creatorCards">
-                <img src="#" class="card-img-top" alt="image">
-                <div class="card-body">
-                    <h3 class="cart-title">Andrea Berrocal</h2>
-                    <p class="card-text">Full-Stack Developer</p>
+                <div class="collapse navbar-collapse " id="kermaNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item active"><a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <!--Download Button-->
+                    <button class="btn btn-primary ml-auto" type="button" id="downloadButton"> Download Kerma
+                        Now</button>
+                    </span>
                 </div>
             </div>
-    </div>
-    <div class= "col col-lg-6">
-        <div class="card bg-light mx-auto shadow"  id="creatorCards">
-            <img src="#" class="card-img-top" alt="image">
-            <div class="card-body">
-                <h3 class="cart-title">Valery Berrocal</h2>
-                <p class="card-text">Graphic Designer</p>
+
+        </nav>
+        <!--Download Button Modal-->
+        <div id="downloadModal" class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Download Kerma</h5>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <p><i class="fas fa-mobile-alt mr-2"></i>Download for IOS or Android</p>
+                        <button type="button" class="btn btn-primary"><i class="fab fa-apple mr-2"></i>IOS</button>
+                        <button type="button" class="btn btn-primary"><i
+                                class="fab fa-android mr-2"></i>Android</button>
+                        <button type="button" data-dismiss="modal" class="btn btn-secondary">Close</button>
+                    </div>
+
+                </div>
             </div>
         </div>
-    </div>
-<div id="coinmarketcap-widget-marquee" coins="1,1027,825,1839,2010,5426,52" currency="USD" theme="light" transparent="true" show-symbol-logo="true"></div>
-
-</div>
-
-
-<footer class="site footer mt-5">
-    <div class="container">
+    </header>
+    <!--About Kerma-->
+    <div class="container mt-5">
         <div class="row">
-            <div class="col text-center">
-                <h4>Meet us</h4>
-                <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/andrea-berrocal-"><i class="fab fa-linkedin fa-lg"></i></a>
-                <a class="btn btn-social-icon btn-github" href="https://github.com/An-Be"><i class="fab fa-github fa-lg"></i></a>
+            <div class="col">
+                <h1>About</h1>
+                <p>Kerma was made by a small group of people. Actually only two people. Andrea Berrocal who came up with
+                    the design and also developed the website and Valery Berrocal, who made the illustrations you see on
+                    the Kerma website as well as the Kerma Logo. The ultimate goal behind Kerma is to make a
+                    decentralized wallet so users can be in charge of their own tokens and not have to worry about
+                    others interfering.</p>
+            </div>
+            <div class="col">
+                <img src="" alt="About us image">
             </div>
         </div>
+        <hr />
     </div>
-    </footer>
-       <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
-       <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-       <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-       <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-       <script src="js/scripts.js"></script>
-       <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script>
+
+
+    <!--creators of Kerma-->
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <h2>Creators of Kerma</h2>
+        </div>
+
+
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-6 mb-3">
+                <div class="card bg-light mx-auto shadow" id="creatorCards">
+                    <img src="#" class="card-img-top" alt="image">
+                    <div class="card-body">
+                        <h3 class="cart-title">Andrea Berrocal</h2>
+                            <p class="card-text">Full-Stack Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-6">
+                <div class="card bg-light mx-auto shadow" id="creatorCards">
+                    <img src="#" class="card-img-top" alt="image">
+                    <div class="card-body">
+                        <h3 class="cart-title">Valery Berrocal</h2>
+                            <p class="card-text">Graphic Designer</p>
+                    </div>
+                </div>
+            </div>
+            <div id="coinmarketcap-widget-marquee" coins="1,1027,825,1839,2010,5426,52" currency="USD" theme="light"
+                transparent="true" show-symbol-logo="true"></div>
+
+        </div>
+
+
+        <footer class="site footer mt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <h4>Meet us</h4>
+                        <a class="btn btn-social-icon btn-linkedin"
+                            href="https://www.linkedin.com/in/andrea-berrocal-"><i
+                                class="fab fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-github" href="https://github.com/An-Be"><i
+                                class="fab fa-github fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script>
 
 </body>
 
