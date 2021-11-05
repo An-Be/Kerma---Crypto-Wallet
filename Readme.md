@@ -1,6 +1,6 @@
 # Kerma : a crypto wallet #
 
-This is a front end development project. Kerma is a decentralized crypto wallet. This is my first portfolio project, I will be using HTML, CSS, Bootstrap, and JS to build the simple responsive website. For now it is only a front end project but I plan on adding back end components as well to this project.
+This is a front end development project. Kerma is a decentralized crypto wallet. I used HTML, CSS, Bootstrap, and JS to build the simple responsive website. For now it is only a front end project but I plan on adding back end components as well to this project.
 
 ## What I learned ##
 
