@@ -5,13 +5,8 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
     "start": "npm run lite",
-    "lite": "lite-server",
-    "imagemin": "imagemin img/* -o dist/img",
-    "usemin": "usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin index.html -d dist --htmlmin -o dist/index.html",
-    "clean": "rimraf dist",
-    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts"
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -24,11 +19,7 @@
   },
   "homepage": "https://github.com/An-Be/Kerma---Crypto-Wallet#readme",
   "devDependencies": {
-    "copyfiles": "^2.2.0",
-    "imagemin-cli": "^5.1.0",
-    "lite-server": "^2.6.1",
-    "rimraf": "^3.0.2",
-    "usemin-cli": "^0.6.0"
+    "lite-server": "^2.6.1"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
