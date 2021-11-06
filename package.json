@@ -35,6 +35,7 @@
     "bootstrap": "^4.5.2",
     "jquery": "^3.5.1",
     "nth": "^1.1.0",
+    "nth-check": "^2.0.1",
     "popper.js": "^1.16.1",
     "semver-regex": "^4.0.2",
     "trim-newlines": "^4.0.2"
