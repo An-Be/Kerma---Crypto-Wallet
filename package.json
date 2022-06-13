@@ -24,7 +24,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "bootstrap": "^4.5.2",
-    "follow-redirects": "^1.14.7",
+    "follow-redirects": "^1.14.8",
     "jquery": "^3.5.1",
     "nth": "^1.1.0",
     "nth-check": "^2.0.1",
